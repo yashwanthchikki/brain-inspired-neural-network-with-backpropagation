@@ -66,3 +66,25 @@ The system learns to classify two classes with limited data and emphasizes low-m
 ## How to Run
 
 1. **Prepare Dataset**
+
+2. dataset_directory/ training_set/ class0/ class1/ test_set/ class0/ class1/
+
+markdown
+Copy
+Edit
+- Grayscale images recommended at 64x64 pixels.
+
+2. **Install Dependencies**
+```bash
+pip install tensorflow numpy
+Train the Model
+
+bash
+Copy
+Edit
+python your_script_name.py
+View Results
+
+Training progress printed per image.
+
+Final test accuracy shown after evaluation.
